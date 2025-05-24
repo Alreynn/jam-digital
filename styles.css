@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0 }
+body { background-color: #F0ECE9; font-family: Sans-Serif }
+.containerBg {
+    width: fit-content;
+    margin: auto;
+    margin-top: clamp(0dvh,45dvh,50dvh);
+    padding: 8px;
+    background-color: #F0EBD8;
+    box-shadow: 0 5px #555;
+    border-radius: 8px;
+}
+.container {
+    background-color: #E0DAC7;
+    padding: 20px;
+    border-radius: 12px;
+}
+p { text-align: center }
+#day { font-size: 16px }
+#time { font-size: 48px }
