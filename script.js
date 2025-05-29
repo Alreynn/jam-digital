@@ -15,9 +15,7 @@ function waktu() {
     const waktu = getTanggal.toLocaleTimeString('id-ID');
     timeText.innerText = waktu
 }
-hari();
-waktu()
 setInterval(() => {
     hari();
     waktu()
-}, 1000)
+}, 500)
